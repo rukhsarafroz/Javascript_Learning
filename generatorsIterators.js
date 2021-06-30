@@ -1,3 +1,4 @@
+/* Created own iterator */
 function myIterators(start, finish){
     let index = start;
     let count = 0;

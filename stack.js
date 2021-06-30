@@ -9,10 +9,11 @@ let letters = []; //this is our stack
 let word = "racecar";
 let rword = "";
 
-//put letters of word into stack
+//push letters of word into stack
 for(let i = 0; i < word.length; i++){
     letters.push(word[i]);
 }
+//pop each letter of word from stack and append into rword
 for(let i = 0; i < word.length; i++){
     rword += letters.pop();
 }

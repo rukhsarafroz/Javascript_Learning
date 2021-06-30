@@ -5,3 +5,4 @@ function removeFirstTwoEle(list){
 }
 let arr = [8,9,10,11,12,13];
 console.log(removeFirstTwoEle(arr));
+/* Output: [10,11,12,13] */

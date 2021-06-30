@@ -1,3 +1,4 @@
+/* COunt population of each state from given array of object */
 let array=[
     {"Gujrat": 2000},
     {"Maharashtra":3000},
@@ -15,3 +16,4 @@ function  totalPopulation(array){
   return total;
 }
 console.log(totalPopulation(array));
+/* output: 9000 */
